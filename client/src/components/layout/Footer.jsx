@@ -7,21 +7,19 @@ const Footer = () => {
         <div className="max-w-md">
           <a href="/">
             <img
-              src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Aadhaar_Logo.svg/1200px-Aadhaar_Logo.svg.png"
-              alt="UIDAI Logo"
-              // className="w-36"
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Aadhaar_Logo.svg/1200px-Aadhaar_Logo.svg.png" // Replace with a custom logo
+              alt="Face Auth Sim Logo"
             />
           </a>
           <div className="mt-6">
             <p className="text-slate-600 leading-relaxed text-sm">
-              Our platform simulates Aadhaar-based Face Authentication with
-              advanced liveness detection technology. It provides a secure and
-              smooth user experience, helping citizens understand how real-time
-              biometric verification can work digitally.
+              This platform demonstrates simulated Face Authentication and
+              digital identity verification using liveness detection
+              technology. It provides a secure and interactive prototype to
+              showcase how such technology may work in real-world systems.
             </p>
           </div>
           <ul className="mt-10 flex space-x-5">
-            {/* You can link to your GitHub or leave void */}
             <li>
               <a href="">
                 <svg
@@ -40,34 +38,22 @@ const Footer = () => {
           <h4 className="text-slate-900 font-semibold text-sm">Verification</h4>
           <ul className="mt-6 space-y-4">
             <li>
-              <a
-                href="/"
-                className="text-slate-600 hover:text-slate-900 text-sm"
-              >
+              <a href="/" className="text-slate-600 hover:text-slate-900 text-sm">
                 Liveness Detection
               </a>
             </li>
             <li>
-              <a
-                href="/aadhaar"
-                className="text-slate-600 hover:text-slate-900 text-sm"
-              >
-                Aadhaar Simulation
+              <a href="/aadhaar" className="text-slate-600 hover:text-slate-900 text-sm">
+                Identity Simulation
               </a>
             </li>
             <li>
-              <a
-                href="/profile"
-                className="text-slate-600 hover:text-slate-900 text-sm"
-              >
+              <a href="/profile" className="text-slate-600 hover:text-slate-900 text-sm">
                 User Profile
               </a>
             </li>
             <li>
-              <a
-                href="/success"
-                className="text-slate-600 hover:text-slate-900 text-sm"
-              >
+              <a href="/success" className="text-slate-600 hover:text-slate-900 text-sm">
                 Verification Result
               </a>
             </li>
@@ -98,10 +84,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a
-                href="/faq"
-                className="text-slate-600 hover:text-slate-900 text-sm"
-              >
+              <a href="/faq" className="text-slate-600 hover:text-slate-900 text-sm">
                 FAQs
               </a>
             </li>
@@ -112,26 +95,17 @@ const Footer = () => {
           <h4 className="text-slate-900 font-semibold text-sm">Team</h4>
           <ul className="space-y-4 mt-6">
             <li>
-              <a
-                href="/team"
-                className="text-slate-600 hover:text-slate-900 text-sm"
-              >
+              <a href="/team" className="text-slate-600 hover:text-slate-900 text-sm">
                 Our Members
               </a>
             </li>
             <li>
-              <a
-                href="/about"
-                className="text-slate-600 hover:text-slate-900 text-sm"
-              >
+              <a href="/about" className="text-slate-600 hover:text-slate-900 text-sm">
                 About Project
               </a>
             </li>
             <li>
-              <a
-                href="/contactus"
-                className="text-slate-600 hover:text-slate-900 text-sm"
-              >
+              <a href="/contactus" className="text-slate-600 hover:text-slate-900 text-sm">
                 Contact Us
               </a>
             </li>
@@ -141,10 +115,10 @@ const Footer = () => {
 
       <div className="mt-10">
         <p className="text-xs text-red-500 max-w-xl leading-relaxed">
-          Disclaimer: This project is a prototype developed as part of the Smart
-          India Hackathon 2025. It is not affiliated with UIDAI or any
-          government body. The Aadhaar logo is used here only for simulation
-          purposes and belongs to UIDAI.
+          <strong>Disclaimer:</strong> This project is a non-commercial prototype
+          created as part of Smart India Hackathon 2025. It is not affiliated
+          with UIDAI, Aadhaar, or any government agency. Any resemblance to
+          official platforms is purely for simulation and demonstration purposes only.
         </p>
       </div>
 
@@ -153,32 +127,23 @@ const Footer = () => {
       <div className="flex flex-wrap max-md:flex-col gap-4">
         <ul className="md:flex md:space-x-6 max-md:space-y-2">
           <li>
-            <a
-              href="/terms"
-              className="text-slate-600 hover:text-slate-900 text-sm"
-            >
+            <a href="/terms" className="text-slate-600 hover:text-slate-900 text-sm">
               Terms of Service
             </a>
           </li>
           <li>
-            <a
-              href="/privacy"
-              className="text-slate-600 hover:text-slate-900 text-sm"
-            >
+            <a href="/privacy" className="text-slate-600 hover:text-slate-900 text-sm">
               Privacy Policy
             </a>
           </li>
           <li>
-            <a
-              href="/security"
-              className="text-slate-600 hover:text-slate-900 text-sm"
-            >
+            <a href="/security" className="text-slate-600 hover:text-slate-900 text-sm">
               Security
             </a>
           </li>
         </ul>
         <p className="text-slate-600 text-sm md:ml-auto">
-          © 2025 UIDAI Liveness Sim. All rights reserved.
+          © 2025 FaceAuth Sim. All rights reserved.
         </p>
       </div>
     </footer>

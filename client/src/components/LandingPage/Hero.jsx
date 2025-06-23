@@ -10,14 +10,14 @@ const Hero = () => {
               Welcome to
               <span className="text-[#02a926] block">
                 {" "}
-                Aadhaar Face Verification
+                Face Verification Prototype
               </span>
             </h1>
             <div className="max-w-md md:max-w-3xl mx-auto mt-6">
               <p className="text-lg sm:text-xl text-gray-900 leading-relaxed">
-                Ensure secure and authentic identity verification using our
-                AI-powered face liveness detection system — built in alignment
-                with UIDAI guidelines.
+                Experience AI-driven face verification with liveness detection —
+                simulating how secure, hardware-free authentication can work
+                for digital identity systems.
               </p>
 
               <div className="mt-12 lg:mt-16 flex flex-wrap max-lg:justify-center gap-6">
@@ -30,7 +30,10 @@ const Hero = () => {
                   </button>
                 </div>
                 <div>
-                  <button className="w-full flex items-center justify-center px-8 py-4 font-medium text-base tracking-wide rounded-full bg-orange-600 hover:bg-gray-50 transition border-0 cursor-pointer hover:text-black">
+                  <button
+                    className="w-full flex items-center justify-center px-8 py-4 font-medium text-base tracking-wide rounded-full bg-orange-600 hover:bg-gray-50 transition border-0 cursor-pointer hover:text-black"
+                    onClick={() => (window.location.href = "/about")}
+                  >
                     Learn More
                   </button>
                 </div>
@@ -40,7 +43,7 @@ const Hero = () => {
         </div>
 
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-yellow-400">
-          
+          {/* Optional: Add an illustration or animation here */}
         </div>
       </div>
     </div>

@@ -1,3 +1,4 @@
+// other imports...
 import axios from "axios";
 import React, { useState } from "react";
 import { toast } from "react-toastify";
@@ -38,8 +39,6 @@ const Contact = () => {
       } else {
         setStatus("Failed to send message. Please try again later.");
         toast.error("Failed to send message. Please try again later.");
-
-
       }
     } catch (error) {
       console.log(error);
@@ -50,7 +49,7 @@ const Contact = () => {
   };
 
   return (
-    <section className=" relative z-10 overflow-hidden bg-white py-20  dark:bg-dark lg:py-[120px]">
+    <section className="relative z-10 overflow-hidden bg-white py-20 dark:bg-dark lg:py-[120px]">
       <div className="container px-6 sm:px-10 mx-auto">
         <div className="-mx-4 flex flex-wrap lg:justify-between">
           <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -59,18 +58,19 @@ const Contact = () => {
                 Contact Us
               </span>
               <h2 className="mb-6 text-[32px] font-bold uppercase text-gray-900 dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                We’d love to hear from you
+                We'd love to hear from you
               </h2>
               <p className="mb-9 text-base leading-relaxed text-gray-600 dark:text-gray-400">
-                Have questions, feedback, or want to collaborate on UIDAI's Face
-                Authentication project? Reach out — whether you're from the
-                Aadhaar ecosystem, a developer, or simply curious.
+                Whether you're a developer, a tech enthusiast, or curious about
+                facial authentication and digital identity simulations, feel
+                free to reach out. We're happy to collaborate or assist.
               </p>
 
               <InfoBox
                 iconType="location"
                 title="Our Location"
-                content="Department of Computer Science, IIT (ISM) Dhanbad, Jharkhand, India"
+                content="Smart India Hackathon 2025 Prototype Team, India
+"
               />
 
               <InfoBox
@@ -82,7 +82,7 @@ const Contact = () => {
               <InfoBox
                 iconType="email"
                 title="Email Address"
-                content="faceauth@uidai.in"
+                content="faceauth.simulation@gmail.com" // Change to your working team email
               />
             </div>
           </div>
@@ -136,6 +136,7 @@ const Contact = () => {
 };
 
 export default Contact;
+
 
 const ContactInputBox = ({ type, placeholder, name, value, onChange }) => (
   <div className="mb-6">
