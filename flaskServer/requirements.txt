@@ -17,3 +17,4 @@ protobuf==5.27.3
 pyreadline3==3.4.1
 sympy==1.13.2
 Werkzeug==3.0.4
+flask-cors==4.0.0
