@@ -139,6 +139,15 @@ const Footer = () => {
         </div>
       </div>
 
+      <div className="mt-10">
+        <p className="text-xs text-red-500 max-w-xl leading-relaxed">
+          Disclaimer: This project is a prototype developed as part of the Smart
+          India Hackathon 2025. It is not affiliated with UIDAI or any
+          government body. The Aadhaar logo is used here only for simulation
+          purposes and belongs to UIDAI.
+        </p>
+      </div>
+
       <hr className="mt-10 mb-6 border-gray-300" />
 
       <div className="flex flex-wrap max-md:flex-col gap-4">
