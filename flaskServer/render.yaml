@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: uidai-flask-api
+    env: python
+    buildCommand: ""
+    startCommand: python server.py
+    plan: free
+    region: oregon
+    runtime: python
+    branch: main
