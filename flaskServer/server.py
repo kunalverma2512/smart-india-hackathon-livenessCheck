@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify
 import cv2
 import numpy as np
@@ -22,4 +23,5 @@ def predict():
         return jsonify({'error': 'No image uploaded'}), 400
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=5001)  # Ensure you run on port 5001
+    port = int(os.environ.get("PORT", 5001))
+    app.run(host="0.0.0.0", port=port)
